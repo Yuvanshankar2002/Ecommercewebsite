@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button{
+    font-size: 2.5rem !important;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: rgb(231, 183, 49);
+    padding: 13px 30px !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+
+}
+button:hover{
+    background-color: rgb(65, 65, 64);
+}
+
+
+
+
+
+.navbar{
+    font-size: 28px;
+    top: 0;
+    left: 0;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link{ 
+    padding: 0 28px !important;
+    color: rgb(15, 15, 15) !important;
+    transition: 0.3s ease !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.century:hover
+.navbar-light .navbar-nav .nav-link.active, .century.active{
+    color:rgb(95, 153, 240)!important;
+}
+
+.century{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+#home{
+    background-image:url("Images\\home\\pexels-andrea-piacquadio-842811.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 60px center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+}
+
+b{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(29, 30, 32);
+    transition: 0.3s ease;
+}
+
+b:hover{
+    color: rgb(255, 174, 81);
+}
+
+#home span{
+    color: rgb(95, 153, 240);
+}
+
+.main{
+    left: 500px;
+}
+
+
+
+
+
+img{
+    width: 67px;
+    height: 45px;
+}
+
+
+/* mobile nav */
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    font-size: 1.5rem;
+    cursor: pointer !important;
+    font-weight: 500;
+    transform: 0.3s ease;
+
+
+}
+.navbar-toggler:hover,
+.navbar-toggler.active{
+    color: cornflowerblue !important;
+}
+
+
+#brand{
+    padding-left: 25px;
+}
